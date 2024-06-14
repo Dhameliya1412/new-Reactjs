@@ -5,8 +5,8 @@ function Home() {
 
 <>
 
-    <div className='bg-sky-400 h-full'>
-    <div className='text-center text-4xl p-5 text-sky-950'>
+    <div className='bg-sky-400 h-full '>
+    <div className='text-center text-4xl p-5 text-sky-950 '>
         HOME
         
         </div> 

@@ -7,8 +7,8 @@ const Navbar = () => {
     <>
 
 
-<ui className="shadow-2xl shadow-black">
-<div className=" bg-sky-950 h-20 w-full text-white " style={{display:"flex"}}>
+<ui className="shadow-2xl shadow-black ">
+<div className=" bg-sky-950 h-20 w-full text-white" style={{display:"flex"}}>
 
 
 <a className='mx-10  text-4xl text-sky-300' style={{display:"flex", paddingLeft:"60px", paddingTop:"20px"}}><Link to="/"> ::::|D|:::: </Link></a>

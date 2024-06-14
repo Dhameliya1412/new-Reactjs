@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
 
 
-const Footer = () => {
-  return (
+const Footer = () => { 
+  return ( 
     <div>
       <footer>
         
@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="container mx-auto flex flex-wrap items-center ">
             <div className="grid grid-cols-5 gap-2 flex-wrap mt-5">
               <div className="flex">
-                <div className="footer-logo">
+                <div className="footer-logo">  
                   <a href="#" className=''>
                   <img src="https://ninico-nextjs.vercel.app/assets/img/logo/logo.png" alt="Logo" className="h-7" />
                   </a>
@@ -70,7 +70,7 @@ const Footer = () => {
                 <div className='Get'>
                   <div className='footer-text4'>
 
-                    <h4 className='mb-8 font-bold text-underline  '>Get Newsletter</h4>
+                    <h4 className='mb-8 font-bold text-underline '>Get Newsletter</h4>
                     <p className='font-bold text-gray-500'>Get on the list and get 10% off your first order!</p>
 
                     <div className='form mt-5'>

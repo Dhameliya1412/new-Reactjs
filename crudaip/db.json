@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "de0d",
+       "firstname": "darshan",
+      "lastname": "dhameliya",
+      "age": "16",
+      "city": "surat"
+    },
+    {
+      "id": "f804",
+      "firstname": "darshan",
+      "lastname": "dhameliya",
+      "age": "17",
+      "city": "surat"
+    },
+    {
+      "id": "f804",
+      "firstname": "darshan",
+      "lastname": "dhameliya",
+      "age": "18",
+      "city": "surat"
+    },
+    {
+      "id": "2855",
+      "firstname": "darshan",
+      "lastname": "dhameliya",
+      "age": "19",
+      "city": "surat"
+    }
+  ]
+}

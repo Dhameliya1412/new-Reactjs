@@ -1,0 +1,39 @@
+{
+  "people": [
+    {
+      "id": "64b6",
+      "firstname": "Darshan ",
+      "lastname": "Dhameliya ",
+      "age": "20",
+      "city": "Kamrej "
+    },
+    {
+      "id": "4ed3",
+      "firstname": "Mark",
+      "lastname": "Zukerberg",
+      "age": "45",
+      "city": "Calefornia"
+    },
+    {
+      "id": "046f",
+      "firstname": "Elon ",
+      "lastname": "Musk",
+      "age": "38",
+      "city": "Sunfrancisco"
+    },
+    {
+      "id": "2db7",
+      "firstname": "Narendra ",
+      "lastname": "Modi",
+      "age": "62",
+      "city": "Gandhinagar"
+    },
+    {
+      "id": "de4e",
+      "firstname": "Jagdish bhai",
+      "lastname": "Iitaliya",
+      "age": "46",
+      "city": "surat"
+    }
+  ]
+}

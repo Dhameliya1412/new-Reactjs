@@ -1,0 +1,41 @@
+.tpproduct__thumb-bg { 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    top: 50%; 
+    transform: translateY(-50%); 
+} 
+ 
+.tpproduct__thumb-bg a { 
+    margin: 0 10px; 
+    font-size: 16px; 
+    padding: 14px 0; 
+    display: inline-block; 
+    line-height: 1; 
+    color: #999; 
+} 
+ 
+.tpproductactionbg { 
+    background-color: white; 
+    display: inline-block; 
+    padding: 0 0px; 
+    border-radius: 6px; 
+    transform: translateY(20px); 
+    opacity: 0; 
+    transition: transform .5s ease 0s, background-color .5s ease 0s, opacity .4s ease 0s; 
+} 
+ 
+.tpproductactionbg:hover { 
+    background-color: white; 
+    display: inline-block; 
+    position: absolute; 
+    padding: 0 8px; 
+    left: 0; 
+    right: 0; 
+    border-radius: 6px; 
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .04); 
+    transform: translateY(50px); 
+    opacity: 1; 
+    transition: transform .5s ease 0s, background-color .5s ease 0s, opacity .4s ease 0s; 
+}

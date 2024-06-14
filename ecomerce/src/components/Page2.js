@@ -1,15 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link} from "react-router-dom" 
+import './Page2.css'
+import Shope from './Shope';
 
 export default class Page2 extends Component {
   render() {
     return (
       <div>
-        <div className="flex space-x-6 ml-28 mt-10" >
+        <div className="flex space-x-6 ml-28 mt-24" >
         <a className="h-18 mx-0 text text-4xl font-medium" > Top</a>
         <a className="h-18 mx-0 text text-4xl text-red-700 font-extralight " >Categories</a>
         </div>
 
-<div className="drsh" style={{display:"flex", justifyContent:"space-between"}}>
+<div className="w-full grid-rows-4" style={{display:"flex", justifyContent:"space-between"}}>
 
 {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
 {/* box-1 */}
@@ -110,14 +113,12 @@ export default class Page2 extends Component {
 </div>
 
 
-<div className="flex">
+{/* <div className="flex ">
     
 <div className="flex space-x-6 ml-28 mt-10" >
         <a className="h-18 mx-0 text text-4xl font-medium" >Popular</a>
         <a className="h-18 mx-0 text text-4xl text-red-700 font-extralight " >Products</a>
         </div>
-
-
         
 <nav class="bg-gray-100 dark:bg-white" >
     <div class="max-w-screen-96 px-20 py-3 mx-auto mt-10 ml-96 ">
@@ -140,48 +141,118 @@ export default class Page2 extends Component {
     </div>
 </nav>
 
-</div>
+</div> */}
 
-
+{/*==================================================================================================================================================================================== */}
+{/* 
 <div className="card" style={{display:"flex", justifyContent:"space-evenly"}}>
 
-<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 dark:hover:shadow-xl dark:hover: dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300
  hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-2.jpg" alt="jkjkjkjk"/>
+    <img class=" object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-2.jpg" alt="jkjkjkjk"/>
     <div class="flex flex-col justify-between p-4 leading-normal">
         <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
     </div>
 </a>
-<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-2.jpg" alt="jkjkjkjk"/>
+
+
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-4.jpg" alt="jkjkjkjk"/>
     <div class="flex flex-col justify-between p-4 leading-normal">
         <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
     </div>
 </a>
-<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-2.jpg" alt="jkjkjkjk"/>
+
+
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-6.jpg" alt="jkjkjkjk"/>
     <div class="flex flex-col justify-between p-4 leading-normal">
         <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
     </div>
 </a>
-<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-2.jpg" alt="jkjkjkjk"/>
+
+
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300 ">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-8.jpg" alt="jkjkjkjk"/>
     <div class="flex flex-col justify-between p-4 leading-normal">
         <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
     </div>
 </a>
+
+
+</div> */}
+
+
+{/* 2 line ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+
+
+
+{/* <div className="card" style={{display:"flex", justifyContent:"space-evenly"}}>
+
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300
+ hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 ">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg " src="https://ninico-nextjs.vercel.app/assets/img/product/product-10.jpg" alt="jkjkjkjk"/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
+    </div>
+</a>
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-12.jpg" alt="jkjkjkjk"/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
+    </div>
+</a>
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-14.jpg" alt="jkjkjkjk"/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
+    </div>
+</a>
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-16.jpg" alt="jkjkjkjk"/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
+    </div>
+</a>
+
+</div> */}
+
+
+
+{/* 
+<div className="card" style={{display:"flex", justifyContent:"space-evenly"}}>
+
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300
+ hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-18.jpg" alt="jkjkjkjk"/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
+    </div>
+</a>
+<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-64 hover:bg-gray-100  dark:bg-gray-200 dark:hover:bg-gray-100 dark:hover:p-3 dark:hover:rounded-3xlxl dark:hover:animation duration-300">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="https://ninico-nextjs.vercel.app/assets/img/product/product-20.jpg" alt="jkjkjkjk"/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Georgie Olson</p>
+        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$60.00</h5>
+    </div>
+</a>
+
+
+</div> */}
+
+
 
 </div>
-
-
-
-
-
-      </div>
+      
     )
   }
 }
